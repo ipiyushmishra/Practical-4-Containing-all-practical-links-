@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-5(ImageMap)</title>
+    <style>
+        body{
+    background-color: rgb(227, 227, 227);
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    }
+        div{
+    background-color: #6b6a6a;
+    overflow: hidden;
+    }
+        .header{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    border: 6px solid white;
+    }
+        .header a{
+    color: white;
+    font-size: 190%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    margin: 0px 15px 0px;
+    }
+        .header a:hover{
+    color: black;
+    }
+        .header h2{
+    display: inline;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    }
+        h2{
+    color: white;
+    text-align: center;
+
+    }
+        h3{
+    color: red;
+    text-align: center;
+    }
+        img{
+    margin-left: 31%;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">Home</a>
+        <h2>|</h2>
+        <a href="#">Practical-1</a> 
+        <h2>|</h2>
+        <a href="#">Practical-2</a>
+        <h2>|</h2>
+        <a href="#">Practical-3</a>
+        <h2>|</h2>
+        <a href="#">Practical-4</a>
+        <h2>|</h2>
+        <a href="#">Practical-5</a>
+    </div>
+   <h2>Introduction To Front-End Technologies</h2> 
+   <img src="HTML CSS JAVASCRIPT BOOTSTRAP.jpg" alt="Image containing symbols of frontend technologies" usemap="#main">
+   <map name="main">
+       <area shape="rect" coords="27,11,256,247" href="https://www.w3schools.com/html/html_intro.asp" alt="HTML-Resource">
+       <area shape="circle" coords="427,140,137" href="https://www.w3schools.com/css/css_intro.asp" alt="CSS-Resource">
+       <area shape="rect" coords="36,287,251,495" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" alt="JavaScript-Resource">
+       <area shape="poly" coords="422,297,508,326,494,439,422,481,351,440,339,328," href="https://www.w3schools.com/whatis/whatis_bootstrap.asp" alt="Bootstrap-Resource">
+   </map>
+   <h3>Click on any symbol to know more about a particular technology.</h3>
+</body>
+</html>
